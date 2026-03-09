@@ -7,12 +7,30 @@
 LoanStar is a sample application designed to demonstrate how a candidate would approach 
 implementing a simple loan‑processing system.
 
+## Endpoints
+
+List of available REST endpoints:
+
+![image info](endpoints.png)
+
+
 ## How do I run it?
 
 The project has no prerequisites other than having version 8 of the .NET SDK installed. 
 The database is implemented in SQLite and is included in the project, so you should be able 
 to clone the repository and open the solution file in Visual Studio, or alternatively build 
 and run it from the command line.
+
+## Configuration
+
+List of available configuration settings:
+
+| Setting                           | Description                               |
+| ----------------------------------| ----------------------------------------- |
+| ENABLE_SWAGGER                    | Enable or disable swagger endpoint        |
+| ENABLE_HTTP_LOGGING               | Enable or disable http request logging    |
+| ENABLE_LOAN_APPLICATION_PROCESSOR | Enable or disable background worker       |
+| DB_CONNECTION_STRING              | Database connection string                |
 
 ## How could it be improved?
 
