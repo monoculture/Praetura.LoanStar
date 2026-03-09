@@ -21,6 +21,10 @@ The database is implemented in SQLite and is included in the project, so you sho
 to clone the repository and open the solution file in Visual Studio, or alternatively build 
 and run it from the command line.
 
+## Unit Tests
+
+![image info](unit-tests.png)
+
 ## Configuration
 
 List of available configuration settings:
@@ -31,6 +35,8 @@ List of available configuration settings:
 | ENABLE_HTTP_LOGGING               | Enable or disable http request logging    |
 | ENABLE_LOAN_APPLICATION_PROCESSOR | Enable or disable background worker       |
 | DB_CONNECTION_STRING              | Database connection string                |
+
+
 
 ## How could it be improved?
 
