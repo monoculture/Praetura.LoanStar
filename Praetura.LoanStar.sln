@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37012.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		specs.md = specs.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Praetura.LoanStar.Web", "Praetura.LoanStar.Web\Praetura.LoanStar.Web.csproj", "{F9E38B7D-415D-AB8E-9558-F893BD756E68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Praetura.LoanStar.Web.UnitTests", "Praetura.LoanStar.Web.UnitTests\Praetura.LoanStar.Web.UnitTests.csproj", "{037DE882-029E-E734-263D-8627E24A5F48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9E38B7D-415D-AB8E-9558-F893BD756E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9E38B7D-415D-AB8E-9558-F893BD756E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9E38B7D-415D-AB8E-9558-F893BD756E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9E38B7D-415D-AB8E-9558-F893BD756E68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{037DE882-029E-E734-263D-8627E24A5F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{037DE882-029E-E734-263D-8627E24A5F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{037DE882-029E-E734-263D-8627E24A5F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{037DE882-029E-E734-263D-8627E24A5F48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3177938E-3BAA-4F1A-B553-68B83A39F8FA}
+	EndGlobalSection
+EndGlobal
